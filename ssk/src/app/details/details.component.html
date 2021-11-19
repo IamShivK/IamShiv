@@ -1,0 +1,26 @@
+<div>
+    <div>
+        <h1>Details</h1>
+    </div>
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+        <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text.</p> <a href="#" class="btn btn-primary">See Profile</a> </div>
+    </div>
+</div>
+<div class="ml-2 col-sm-6">
+    <div id="msg"></div>
+    <form method="post" id="image-form">
+        <input type="file" name="img[]" class="file" accept="image/*">
+        <div class="input-group my-3">
+            <input type="text" class="form-control" disabled placeholder="Upload File" id="file">
+            <div class="input-group-append">
+                <button type="button" class="browse btn btn-primary">Browse...</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="ml-2 col-sm-6">
+    <img src="https://placehold.it/80x80" id="preview" class="img-thumbnail">
+</div>
